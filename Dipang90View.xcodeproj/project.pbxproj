@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		24E1028121BA364D0049EC9B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1028021BA364D0049EC9B /* AppDelegate.swift */; };
+		24E1028321BA364D0049EC9B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1028221BA364D0049EC9B /* ViewController.swift */; };
+		24E1028621BA364D0049EC9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24E1028421BA364D0049EC9B /* Main.storyboard */; };
+		24E1028821BA365C0049EC9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24E1028721BA365C0049EC9B /* Assets.xcassets */; };
+		24E1028B21BA365D0049EC9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24E1028921BA365D0049EC9B /* LaunchScreen.storyboard */; };
+		24E1029621BA365D0049EC9B /* Dipang90ViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E1029521BA365D0049EC9B /* Dipang90ViewTests.swift */; };
+		24E102A121BA365D0049EC9B /* Dipang90ViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E102A021BA365D0049EC9B /* Dipang90ViewUITests.swift */; };
+		24E102B021BA36DE0049EC9B /* NoDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E102AE21BA36DE0049EC9B /* NoDataView.swift */; };
+		24E102B121BA36DE0049EC9B /* NoDataView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24E102AF21BA36DE0049EC9B /* NoDataView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		24E1029221BA365D0049EC9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24E1027521BA364D0049EC9B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24E1027C21BA364D0049EC9B;
+			remoteInfo = Dipang90View;
+		};
+		24E1029D21BA365D0049EC9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24E1027521BA364D0049EC9B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24E1027C21BA364D0049EC9B;
+			remoteInfo = Dipang90View;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		24E1027D21BA364D0049EC9B /* Dipang90View.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dipang90View.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		24E1028021BA364D0049EC9B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		24E1028221BA364D0049EC9B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		24E1028521BA364D0049EC9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		24E1028721BA365C0049EC9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		24E1028A21BA365D0049EC9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		24E1028C21BA365D0049EC9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24E1029121BA365D0049EC9B /* Dipang90ViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Dipang90ViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		24E1029521BA365D0049EC9B /* Dipang90ViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dipang90ViewTests.swift; sourceTree = "<group>"; };
+		24E1029721BA365D0049EC9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24E1029C21BA365D0049EC9B /* Dipang90ViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Dipang90ViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		24E102A021BA365D0049EC9B /* Dipang90ViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dipang90ViewUITests.swift; sourceTree = "<group>"; };
+		24E102A221BA365D0049EC9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24E102AE21BA36DE0049EC9B /* NoDataView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoDataView.swift; sourceTree = "<group>"; };
+		24E102AF21BA36DE0049EC9B /* NoDataView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NoDataView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24E1027A21BA364D0049EC9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24E1028E21BA365D0049EC9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24E1029921BA365D0049EC9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24E1027421BA364D0049EC9B = {
+			isa = PBXGroup;
+			children = (
+				24E1027F21BA364D0049EC9B /* Dipang90View */,
+				24E1029421BA365D0049EC9B /* Dipang90ViewTests */,
+				24E1029F21BA365D0049EC9B /* Dipang90ViewUITests */,
+				24E1027E21BA364D0049EC9B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		24E1027E21BA364D0049EC9B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24E1027D21BA364D0049EC9B /* Dipang90View.app */,
+				24E1029121BA365D0049EC9B /* Dipang90ViewTests.xctest */,
+				24E1029C21BA365D0049EC9B /* Dipang90ViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24E1027F21BA364D0049EC9B /* Dipang90View */ = {
+			isa = PBXGroup;
+			children = (
+				24E102AE21BA36DE0049EC9B /* NoDataView.swift */,
+				24E102AF21BA36DE0049EC9B /* NoDataView.xib */,
+				24E1028021BA364D0049EC9B /* AppDelegate.swift */,
+				24E1028221BA364D0049EC9B /* ViewController.swift */,
+				24E1028421BA364D0049EC9B /* Main.storyboard */,
+				24E1028721BA365C0049EC9B /* Assets.xcassets */,
+				24E1028921BA365D0049EC9B /* LaunchScreen.storyboard */,
+				24E1028C21BA365D0049EC9B /* Info.plist */,
+			);
+			path = Dipang90View;
+			sourceTree = "<group>";
+		};
+		24E1029421BA365D0049EC9B /* Dipang90ViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				24E1029521BA365D0049EC9B /* Dipang90ViewTests.swift */,
+				24E1029721BA365D0049EC9B /* Info.plist */,
+			);
+			path = Dipang90ViewTests;
+			sourceTree = "<group>";
+		};
+		24E1029F21BA365D0049EC9B /* Dipang90ViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				24E102A021BA365D0049EC9B /* Dipang90ViewUITests.swift */,
+				24E102A221BA365D0049EC9B /* Info.plist */,
+			);
+			path = Dipang90ViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		24E1027C21BA364D0049EC9B /* Dipang90View */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24E102A521BA365D0049EC9B /* Build configuration list for PBXNativeTarget "Dipang90View" */;
+			buildPhases = (
+				24E1027921BA364D0049EC9B /* Sources */,
+				24E1027A21BA364D0049EC9B /* Frameworks */,
+				24E1027B21BA364D0049EC9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dipang90View;
+			productName = Dipang90View;
+			productReference = 24E1027D21BA364D0049EC9B /* Dipang90View.app */;
+			productType = "com.apple.product-type.application";
+		};
+		24E1029021BA365D0049EC9B /* Dipang90ViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24E102A821BA365D0049EC9B /* Build configuration list for PBXNativeTarget "Dipang90ViewTests" */;
+			buildPhases = (
+				24E1028D21BA365D0049EC9B /* Sources */,
+				24E1028E21BA365D0049EC9B /* Frameworks */,
+				24E1028F21BA365D0049EC9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24E1029321BA365D0049EC9B /* PBXTargetDependency */,
+			);
+			name = Dipang90ViewTests;
+			productName = Dipang90ViewTests;
+			productReference = 24E1029121BA365D0049EC9B /* Dipang90ViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		24E1029B21BA365D0049EC9B /* Dipang90ViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24E102AB21BA365D0049EC9B /* Build configuration list for PBXNativeTarget "Dipang90ViewUITests" */;
+			buildPhases = (
+				24E1029821BA365D0049EC9B /* Sources */,
+				24E1029921BA365D0049EC9B /* Frameworks */,
+				24E1029A21BA365D0049EC9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24E1029E21BA365D0049EC9B /* PBXTargetDependency */,
+			);
+			name = Dipang90ViewUITests;
+			productName = Dipang90ViewUITests;
+			productReference = 24E1029C21BA365D0049EC9B /* Dipang90ViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		24E1027521BA364D0049EC9B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Dipang Sheth";
+				TargetAttributes = {
+					24E1027C21BA364D0049EC9B = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					24E1029021BA365D0049EC9B = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 24E1027C21BA364D0049EC9B;
+					};
+					24E1029B21BA365D0049EC9B = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 24E1027C21BA364D0049EC9B;
+					};
+				};
+			};
+			buildConfigurationList = 24E1027821BA364D0049EC9B /* Build configuration list for PBXProject "Dipang90View" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 24E1027421BA364D0049EC9B;
+			productRefGroup = 24E1027E21BA364D0049EC9B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24E1027C21BA364D0049EC9B /* Dipang90View */,
+				24E1029021BA365D0049EC9B /* Dipang90ViewTests */,
+				24E1029B21BA365D0049EC9B /* Dipang90ViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24E1027B21BA364D0049EC9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24E1028B21BA365D0049EC9B /* LaunchScreen.storyboard in Resources */,
+				24E102B121BA36DE0049EC9B /* NoDataView.xib in Resources */,
+				24E1028821BA365C0049EC9B /* Assets.xcassets in Resources */,
+				24E1028621BA364D0049EC9B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24E1028F21BA365D0049EC9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24E1029A21BA365D0049EC9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24E1027921BA364D0049EC9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24E1028321BA364D0049EC9B /* ViewController.swift in Sources */,
+				24E102B021BA36DE0049EC9B /* NoDataView.swift in Sources */,
+				24E1028121BA364D0049EC9B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24E1028D21BA365D0049EC9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24E1029621BA365D0049EC9B /* Dipang90ViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24E1029821BA365D0049EC9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24E102A121BA365D0049EC9B /* Dipang90ViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		24E1029321BA365D0049EC9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24E1027C21BA364D0049EC9B /* Dipang90View */;
+			targetProxy = 24E1029221BA365D0049EC9B /* PBXContainerItemProxy */;
+		};
+		24E1029E21BA365D0049EC9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24E1027C21BA364D0049EC9B /* Dipang90View */;
+			targetProxy = 24E1029D21BA365D0049EC9B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		24E1028421BA364D0049EC9B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24E1028521BA364D0049EC9B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		24E1028921BA365D0049EC9B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24E1028A21BA365D0049EC9B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		24E102A321BA365D0049EC9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		24E102A421BA365D0049EC9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		24E102A621BA365D0049EC9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Dipang90View/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dipang90.app.Dipang90View;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		24E102A721BA365D0049EC9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Dipang90View/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dipang90.app.Dipang90View;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		24E102A921BA365D0049EC9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Dipang90ViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dipang90.app.Dipang90ViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dipang90View.app/Dipang90View";
+			};
+			name = Debug;
+		};
+		24E102AA21BA365D0049EC9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Dipang90ViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dipang90.app.Dipang90ViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dipang90View.app/Dipang90View";
+			};
+			name = Release;
+		};
+		24E102AC21BA365D0049EC9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Dipang90ViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dipang90.app.Dipang90ViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Dipang90View;
+			};
+			name = Debug;
+		};
+		24E102AD21BA365D0049EC9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Dipang90ViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dipang90.app.Dipang90ViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Dipang90View;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24E1027821BA364D0049EC9B /* Build configuration list for PBXProject "Dipang90View" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24E102A321BA365D0049EC9B /* Debug */,
+				24E102A421BA365D0049EC9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24E102A521BA365D0049EC9B /* Build configuration list for PBXNativeTarget "Dipang90View" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24E102A621BA365D0049EC9B /* Debug */,
+				24E102A721BA365D0049EC9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24E102A821BA365D0049EC9B /* Build configuration list for PBXNativeTarget "Dipang90ViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24E102A921BA365D0049EC9B /* Debug */,
+				24E102AA21BA365D0049EC9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24E102AB21BA365D0049EC9B /* Build configuration list for PBXNativeTarget "Dipang90ViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24E102AC21BA365D0049EC9B /* Debug */,
+				24E102AD21BA365D0049EC9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 24E1027521BA364D0049EC9B /* Project object */;
+}
