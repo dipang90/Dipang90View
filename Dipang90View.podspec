@@ -8,7 +8,7 @@ This view changes its label name properly gradually makes your app look fantasti
                        DESC
  
   s.homepage         = 'https://github.com/dipang90/Dipang90View'
-  s.license          = 'MIT'
+  s.license          = { :type => 'MIT', :file => '/Volumes/Work/Erdos Technologies/DemoProjects/Dipang90View/LICENSE' }
   s.author           = { 'Dipang Sheth' => 'shethdipang@gmail.com' }
   s.source           = { :git => 'https://github.com/dipang90/Dipang90View.git', :tag => s.version.to_s }  
  
